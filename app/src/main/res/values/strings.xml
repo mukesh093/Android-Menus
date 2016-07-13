@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Android Menus</string>
+    <string name="menu">Android Menus</string>
+    <string name="option">Option Menu</string>
+    <string name="context">Context Menu</string>
+    <string name="popup">Popup Menu</string>
+    <string name="hello">Hello World!</string>
+    <string name="item1">Item 1</string>
+    <string name="item2">Item 2</string>
+    <string name="item3">Item 3</string>
+    <string name="item4">Item 4</string>
+    <string name="item5">Item 5</string>
+    <string name="show">Show Popup</string>
+    <string name="one">One</string>
+    <string name="two">Two</string>
+    <string name="three">Three</string>
+</resources>
