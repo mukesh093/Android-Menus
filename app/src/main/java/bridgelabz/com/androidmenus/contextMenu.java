@@ -14,7 +14,8 @@ import android.widget.Toast;
  */
 public class contextMenu extends AppCompatActivity {
     ListView listView1;
-    String names[]={"Ajay","Sachin","Sumit","Tarun","Yogesh"};
+    String names[]={"Ajay","Sachin","Sumit","Tarun","Yogesh","Rahul","Suraj","Ravi","Saurav","Rakesh"
+    ,"Rohit","Praful","Ramesh","Lakshman"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

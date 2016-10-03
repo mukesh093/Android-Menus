@@ -26,14 +26,18 @@ public class optionMenu extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.item1:
-                Toast.makeText(getApplicationContext(),"Item 1 Selected",Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Item 1 Selected", Toast.LENGTH_SHORT).show();
                 return true;
             case R.id.item2:
-                Toast.makeText(getApplicationContext(),"Item 2 Selected",Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Item 2 Selected", Toast.LENGTH_SHORT).show();
                 return true;
             case R.id.item3:
-                Toast.makeText(getApplicationContext(),"Item 3 Selected", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Item 3 Selected", Toast.LENGTH_SHORT).show();
                 return true;
+            case R.id.item4:
+                Toast.makeText(this, "Item 4 Selected", Toast.LENGTH_LONG).show();
+            case R.id.item5:
+                Toast.makeText(this, "Item 5 Selected", Toast.LENGTH_LONG).show();
             default:
                 return super.onOptionsItemSelected(item);
         }
